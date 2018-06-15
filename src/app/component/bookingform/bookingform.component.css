@@ -1,0 +1,16 @@
+::placeholder{
+    color: blue;
+}
+form input{
+    border-radius: 10px;
+    width:50%;
+    
+}
+form{
+    width: 50%;
+}
+form-container{
+   
+    width:50%;
+    margin: auto;
+}

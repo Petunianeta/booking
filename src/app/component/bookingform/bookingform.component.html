@@ -1,0 +1,19 @@
+<div align="center" class="form-container">
+  <h1>BOOKINGS</h1>
+  <form >
+    name:<br>
+    <input type="text" id="Name"[(ngModel)]="Name" name="name" placeholder="Enter your Name">
+    <br>
+    Surname:<br>
+    <input type="text" id="Surname" [(ngModel)]="Surname" name="Surname" placeholder="enter your surname">
+    <br>
+    Age:<br>
+    <input type="text" id="Age" [(ngModel)]="Age" name="Age" placeholder="Enter your Age">
+    <br>
+    Date:<br>
+    <input type="text" id="Date" [(ngModel)]="Date" name="Date" placeholder="dd/mm/yyyy">
+    <br>
+
+    <button (click)="onLogin()">Submit</button>
+  </form>
+  </div>
